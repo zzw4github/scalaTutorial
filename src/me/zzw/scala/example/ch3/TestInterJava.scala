@@ -5,9 +5,6 @@ import java.text.DateFormat._
 /**
   * Created by Administrator on 2016-08-07.
   */
-class Ch3 {
-
-}
 
 object FrenchDate {
   def main(args: Array[String]) {

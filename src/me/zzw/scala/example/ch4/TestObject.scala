@@ -4,13 +4,15 @@ package me.zzw.scala.example.ch4
   * Created by Administrator on 2016-08-07.
   */
 // everything is Object
-class Ch4 {
-//  Number is Object
+
+object Number {
+  //  Number is Object
   def med ( x: Int): Unit = {
     println(1 + 2 * 3 / x)
-  println((1).+(((2).*(3))./(x)));
+    println((1).+(((2).*(3))./(x)));
   }
 }
+
 
 // Function is Object
 object Timer {
